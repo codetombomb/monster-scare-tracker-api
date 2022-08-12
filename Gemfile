@@ -34,6 +34,18 @@ gem "sqlite3", "~> 1.4"
 # Require all files in a folder
 gem "require_all", "~> 3.0"
 
+# A library for generating fake data such as names, addresses, and phone numbers.
+# https://github.com/faker-ruby/faker
+gem "faker", "~> 2.22"
+
+# Enables you to make HTTP requests using Ruby
+# https://github.com/jnunemaker/httparty
+gem "httparty", "~> 0.20.0"
+
+# Pretty print your Ruby objects with style -- in full color and with proper indentation
+# https://github.com/awesome-print/awesome_print
+gem "awesome_print", "~> 1.9"
+
 # These gems will only be used when we are running the application locally
 group :development do
   gem "pry", "~> 0.14.1"
